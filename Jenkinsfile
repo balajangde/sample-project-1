@@ -7,8 +7,9 @@ pipeline{
       }
     }
     stage("say bye"){
-    steps{
-      sh 'echo "bye world"'
+      steps{
+        sh 'echo "bye world"'
+      }
     }
   }
 }
